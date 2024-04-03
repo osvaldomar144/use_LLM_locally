@@ -19,16 +19,25 @@ pip install llama-cpp-python
 
 ### 🛠️ Windows troubleshooting
 
-<span style="color:red">ERROR: Failed building wheel for llama-cpp-python
-Failed to build llama-cpp-python
-ERROR: Could not build wheels for llama-cpp-python, which is required to install pyproject.toml-based projects
-</span>
+```diff
+- ERROR: Failed building wheel for llama-cpp-python
+- Failed to build llama-cpp-python
+- ERROR: Could not build wheels for llama-cpp-python, which is required to install pyproject.toml-based projects
+```
 
 ✅ Solution:
 [Stack overflow - Error while installing python package llama ccp-python](https://stackoverflow.com/questions/77267346/error-while-installing-python-package-llama-cpp-python)
 
+
 ## ✏️ Models
+
+Models list:
 [Hugging Face - TheBloke/Mistral-7B-Instruct-v0.2-GGUF](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF)
+
+Delete model command:
+```
+huggingface-cli delete-cache
+```
 
 ## ▶️ Execution
 ```
