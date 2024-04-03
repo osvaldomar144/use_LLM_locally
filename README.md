@@ -38,7 +38,7 @@ Delete model command:
 ```
 huggingface-cli delete-cache
 ```
-Select model with TAB and confirm with ENTER.
+Select model with SPACE and confirm with ENTER.
 
 ## ▶️ Execution
 ```
