@@ -26,7 +26,7 @@ generation_kwargs = {
 }
 
 # Run inference
-prompt = "Write a text about conflict in Ukraine"
+prompt = "Write a text about soccer"
 res = llm(prompt, **generation_kwargs)
 
 # Unpack and the generated text from the LLM response dictionary and print it
